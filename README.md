@@ -19,4 +19,5 @@ Admins can **manage jobs, colleges, and users** with full **CRUD operations**.
 Create a `.env` file in the root of your project and add the following environment variables:
 
 MONGO_URI=mongodb://127.0.0.1:27017/job-portal
+
 PORT=5000
