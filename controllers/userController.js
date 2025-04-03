@@ -1,6 +1,8 @@
 const User = require('../models/User');
 const Job = require('../models/Job');
 const College = require('../models/College');
+const exportDataToCSV = require('../mlModel/model');
+const buildModel = require('../mlModel/model');
 
 exports.getUsers = async (req, res) => {
     try {
@@ -44,6 +46,7 @@ exports.deleteUser = async (req, res) => {
 // Suggest Jobs for College Students & Colleges for Plus-Two Students
 exports.suggestOpportunities = async (req, res) => {
   try {
+    exportDataToCSV(); 
     const { id } = req.params;
     const user = await User.findById(id);
 
