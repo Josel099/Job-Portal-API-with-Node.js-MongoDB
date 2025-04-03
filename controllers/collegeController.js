@@ -48,3 +48,22 @@ exports.deleteCollege = async (req, res) => {
         res.status(500).json({ error: err.message });
     }
 };
+
+exports.searchColleges = async (req, res) => {
+    try {
+      const { query } = req.query; // Get the search keyword from query parameters
+  
+      if (!query) {
+        return res.status(400).json({ error: "Search query is required" });
+      }
+  
+      const colleges = await College.find({ 
+        name: { $regex: query, $options: "i" } // Case-insensitive search
+      });
+  
+      res.json({ colleges });
+    } catch (err) {
+      console.error("College Search Error:", err);
+      res.status(500).json({ error: "An unexpected error occurred" });
+    }
+  };

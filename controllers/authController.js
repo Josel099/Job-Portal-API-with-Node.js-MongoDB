@@ -2,12 +2,21 @@ const User = require("../models/User");
 
 exports.register = async (req, res) => {
   try {
-    const { name, email, password, role } = req.body;
+    const { name, email, password, role, degree, course, marks, age, plusTwoPercentage, plusTwoStream } = req.body;
 
-    // Directly store the password without hashing
     const user = new User({ name, email, password, role });
+
+    if (role === "collegeStudent") {
+      user.degree = degree;
+      user.course = course;
+      user.marks = marks;
+      user.age = age;
+    } else if (role === "plustwoStudent") {
+      user.plusTwoPercentage = plusTwoPercentage;
+      user.plusTwoStream = plusTwoStream;
+    }
+
     await user.save();
-    
     res.status(201).json({ message: "User registered successfully" });
   } catch (err) {
     console.error("Register Error:", err);
