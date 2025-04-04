@@ -2,7 +2,6 @@ const User = require('../models/User');
 const Job = require('../models/Job');
 const College = require('../models/College');
 const exportDataToCSV = require('../mlModel/model');
-const buildModel = require('../mlModel/model');
 
 exports.getUsers = async (req, res) => {
     try {
@@ -68,7 +67,7 @@ exports.suggestOpportunities = async (req, res) => {
       // Fetch Colleges Matching Plus-Two Student's Percentage & Stream
       opportunities = await College.find({
         minMarks: { $lte: user.plusTwoPercentage }, // ✅ Fixed field name
-        courses: { $in: [user.plusTwoStream] }  // ✅ Fixed stream matching
+        requiredStream: { $in: [user.plusTwoStream] }  // ✅ Fixed stream matching
       });
 
       return res.json({ suggestedColleges: opportunities });
