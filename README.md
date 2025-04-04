@@ -21,3 +21,7 @@ Create a `.env` file in the root of your project and add the following environme
 MONGO_URI=mongodb://127.0.0.1:27017/job-portal
 
 PORT=5000
+
+-------
+## UI ♢
+This is the UI of this backend server built in **React.js**. Check it out [here](https://your-react-app-link.com).
