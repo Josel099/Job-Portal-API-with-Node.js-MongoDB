@@ -49,7 +49,7 @@ async function buildModel() {
     try {
     console.log("🚀 Starting ML model training...");
       // Get the absolute path to the Python script
-    const pythonScript = path.join(__dirname, "mlModel/train_model.py");
+     path.join(__dirname, "mlModel/train_model.py");
     console.log("✅ ML Model built successfully");
     } catch (error) {
       console.error("❌ Error building ML model:", error);
