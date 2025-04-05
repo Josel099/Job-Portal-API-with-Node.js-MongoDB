@@ -12,7 +12,6 @@ const JobSchema = new mongoose.Schema({
     requiredDegree: [String],  // Required degree
     minMarks: Number,  // Minimum marks required
     minAge: Number,  // Minimum age
-    requiredCourse: [String],  // Required courses
     mail:String
 });
 

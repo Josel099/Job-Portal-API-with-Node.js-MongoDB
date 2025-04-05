@@ -56,9 +56,8 @@ exports.suggestOpportunities = async (req, res) => {
     if (user.role === "collegeStudent") {
       // Fetch Jobs Matching College Student's Qualification
       opportunities = await Job.find({
-        requiredDegree: user.degree, 
+        requiredDegree: {$in:[user.degree]}, 
         minMarks: { $lte: user.marks },  // ✅ Fixed field name
-        requiredCourse: { $in: [user.course] } // ✅ Fixed for array matching
       });
 
       return res.json({ suggestedJobs: opportunities });
@@ -72,7 +71,7 @@ exports.suggestOpportunities = async (req, res) => {
 
       return res.json({ suggestedColleges: opportunities });
     }
-
+w
     res.status(400).json({ error: "Invalid user role" });
   } catch (err) { 
     console.error("Opportunity Suggestion Error:", err);
