@@ -1,0 +1,38 @@
+// Course options
+const courseOptions = [
+    { value: "Computer Science", label: "Computer Science" },
+    { value: "Information Technology", label: "Information Technology" },
+    { value: "Electronics and Communication", label: "Electronics and Communication" },
+    { value: "Electrical Engineering", label: "Electrical Engineering" },
+    { value: "Mechanical Engineering", label: "Mechanical Engineering" },
+    { value: "Civil Engineering", label: "Civil Engineering" },
+    { value: "Artificial Intelligence", label: "Artificial Intelligence" },
+    { value: "Data Science", label: "Data Science" },
+    { value: "Mathematics", label: "Mathematics" },
+    { value: "Statistics", label: "Statistics" },
+    { value: "Physics", label: "Physics" },
+    { value: "Chemistry", label: "Chemistry" },
+    { value: "Biology", label: "Biology" },
+    { value: "Biotechnology", label: "Biotechnology" },
+    { value: "Environmental Science", label: "Environmental Science" },
+    { value: "Business Administration", label: "Business Administration" },
+    { value: "Commerce", label: "Commerce" },
+    { value: "Accounting and Finance", label: "Accounting and Finance" },
+    { value: "Economics", label: "Economics" },
+    { value: "Marketing", label: "Marketing" },
+    { value: "Human Resource Management", label: "Human Resource Management" },
+    { value: "English Literature", label: "English Literature" },
+    { value: "History", label: "History" },
+    { value: "Political Science", label: "Political Science" },
+    { value: "Sociology", label: "Sociology" },
+    { value: "Psychology", label: "Psychology" },
+    { value: "Journalism and Mass Communication", label: "Journalism and Mass Communication" },
+    { value: "Law", label: "Law" },
+    { value: "Hotel Management", label: "Hotel Management" },
+    { value: "Fashion Design", label: "Fashion Design" },
+    { value: "Interior Design", label: "Interior Design" },
+    { value: "Animation and Multimedia", label: "Animation and Multimedia" },
+    { value: "Education", label: "Education" }
+  ];
+  
+  export default courseOptions;
