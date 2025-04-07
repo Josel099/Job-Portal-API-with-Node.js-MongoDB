@@ -1,25 +1,41 @@
 Colleges Data
 "_id","name","location","mail","minMarks","courses"
-"67ed80121959c8ea79be0095","MIT","Cambridge","admissions@mit.edu",85,"[""Computer Science"",""Artificial Intelligence"",""Cyber Security"",""Science""]"
+"67ed80121959c8ea79be0095","MIT","Cambridge","admissions@mit.edu",85,"[""Computer Science"",""Physics""]"
 "67ed805a1959c8ea79be0097","Stanford University","California","admissions@mit.edu",,"[""Software Engineering"",""Data Science"",""Machine Learning""]"
-"67ed80791959c8ea79be0099","Stanford University","California","admissions@mit.edu",,"[""Software Engineering"",""Data Science"",""Machine Learning""]"
+"67ed80791959c8ea79be0099","Stanford University","California","admissions@mit.edu",,"[""Mathematics""]"
+"67ef29fe0ba952b4ffa79eb9","Stanford University","California","admissions@mit.edu",,"[""Mathematics"",""Physics""]"
+"67ef2b500ba952b4ffa79ec0","Stanford University","California","admissions@mit.edu",,"[""Computer Science"",""Data Science"",""Machine Learning""]"
+"67ef2c2e0ba952b4ffa79ecc","Stanford University","California","admissions@mit.edu",,"[]"
+"67f1455fa2ad0e9a2ea02394","MI^","Thiruvananthapuram, Kerala, IND","admission.@g.xom",,"[""Computer Science"",""Mathematics""]"
+"67f14641a2ad0e9a2ea0239f","MIT","Thiruvananthapuram, Kerala, IND","joselxavier099@gmail.com",80,"[""Computer Science"",""Mathematics""]"
+"67f16af2a2ad0e9a2ea024f2","BMCE","sasthamcotta","bmce@gmail.com",70,"[""Information Technology"",""Journalism and Mass Communication"",""Electrical Engineering""]"
+"67f16b3fa2ad0e9a2ea024f9","CET","Thiruvananthapuram","cet@gmail.com",60,"[""Mechanical Engineering"",""Artificial Intelligence"",""Mathematics""]"
 
 Jobs Data
 "_id","title","company","description","location","salary","experience","skills","postDate","requiredDegree","minMarks","minAge","requiredCourse","mail"
-"67ed7f481959c8ea79be008f","Software Engineer","Google","Develop and maintain software solutions.","San Francisco",120000,"Fresher","[""JavaScript"",""React"",""Node.js""]","2025-04-02T18:17:44.934Z","[""B.Tech""]",80,21,"[""Computer Science""]","google@gmail.com"
-"67ed7fa71959c8ea79be0091","Data Analyst","Microsoft","Analyze data and generate insights.","Seattle",90000,"1 Year","[""SQL"",""Python"",""Power BI""]","2025-04-02T18:19:19.210Z","[""B.Sc""]",75,20,"[""Data Science"",""Statistics""]","microsoft@gmail.com"
-"67ed7fb51959c8ea79be0093","Cyber Security Specialist","IBM","Secure applications and protect against cyber threats.","New York",110000,"2 Years","[""Ethical Hacking"",""Network Security"",""Python""]","2025-04-02T18:19:33.093Z","[""M.Tech""]",85,23,"[""Cyber Security""]","ibm@gmail.com"
+"67ed7f481959c8ea79be008f","Software Engineer","Google","Develop and maintain software solutions.","San Francisco",120000,"Fresher","[""JavaScript"",""React"",""Node.js""]","2025-04-02T18:17:44.934Z","[""B.Tech""]",70,22,,"google@gmail.com"
+"67ed7fa71959c8ea79be0091","Data Analyst","Microsoft","Analyze data and generate insights.","Seattle",90000,"1 Year","[""SQL"",""Python"",""Power BI""]","2025-04-02T18:19:19.210Z","[""B.Sc""]",75,20,,"microsoft@gmail.com"
+"67ed7fb51959c8ea79be0093","Cyber Security Specialist","IBM","Secure applications and protect against cyber threats.","New York",110000,"2 Years","[""Ethical Hacking"",""Network Security"",""Python""]","2025-04-02T18:19:33.093Z","[""B.Tech""]",85,23,,"ibm@gmail.com"
+"67ef28910ba952b4ffa79e93","Cyber Security Specialist","IBM","Secure applications and protect against cyber threats.","New York",110000,"2 Years","[""Ethical Hacking"",""Network Security"",""Python""]","2025-04-04T00:32:17.814Z","[""B.Tech""]",78,21,,"ibm@gmail.com"
+"67f17255a2ad0e9a2ea02577","Receptionist","livares","df","tvm",111111110,"17","[""Java"",""JavaScript"",""SQL"",""Spring Boot"",""React.js"",""Redux"",""Thymeleaf"",""Bootstrap"",""HTML5"",""CSS"",""Hibernate"",""Git"",""GitHub"",""Bitbucket"",""Jira"",""Agile (Scrum)"",""OpenProject"",""Docker"",""Jenkins"",""Tomcat"",""Nginx"",""Maven"",""Postman"",""Hoppscotch"",""OAuth 2.0"",""JWT"",""WebSocket"",""JUnit"",""JProfiler"",""Jaspersoft"",""PuTTY"",""BMS Protocols - M-Bus"",""Modbus"",""BACnet"",""MQTT.""]","2025-04-05T18:11:33.755Z","[""B.Sc""]",71,21,,"livares@gmail.com"
+"67f17314a2ad0e9a2ea0257a","HR","ECS","sld","vellayambalam",450000,"3","[""Java"",""JavaScript"",""SQL"",""Spring Boot"",""React.js"",""Redux"",""Thymeleaf"",""Bootstrap"",""HTML5"",""CSS"",""Hibernate"",""Git"",""GitHub"",""Bitbucket"",""Jira"",""Agile (Scrum)"",""OpenProject"",""Docker"",""Jenkins"",""Tomcat"",""Nginx"",""Maven"",""Postman"",""Hoppscotch"",""OAuth 2.0"",""JWT"",""WebSocket"",""JUnit"",""JProfiler"",""Jaspersoft"",""PuTTY"",""BMS Protocols - M-Bus"",""Modbus"",""BACnet"",""MQTT.""]","2025-04-05T18:14:44.673Z","[""B.Com""]",71,21,,"joselxavier099@gmail.com"
 
 Users Data
 "_id","name","email","role","degree","course","marks","age","plusTwoPercentage","plusTwoStream"
 "67ed79a6f7b2125467594f27","sumesh jdohn","sumesh@edxample.com","collegeStudent","B.Tech","Computer Science",78,21,,
-"67ed7a0ff7b2125467594f2b","Admin User","admin@example.com","admin",,,,,,
-"67ed7ac4f7b2125467594f31","Jane Smith","jane@example.com","plustwoStudent",,,,,88,"Science"
+"67ed7a0ff7b2125467594f2b","Admin User","admin","admin",,,,,,
+"67ed7ac4f7b2125467594f31","Jane Smith","jane@example.com","plustwoStudent",,,,,80,"Science"
 "67eebb718a2bd6056e425b82","anot thomas","janes@example.com","plustwoStudent",,,,,,"Science"
 "67eebb9a8a2bd6056e425b86","anot thomas","janse@example.com","plustwoStudent",,,,,88,"Science"
 "67eed1a7f502c8f7e4198c13",,"joselxavier09@gmail.com","plustwoStudent",,,,,,
 "67eed288f502c8f7e4198c1c",,"joselxavier089@gmail.com","plustwoStudent",,,,,,
-"67eed2c3f502c8f7e4198c1e",,"joseltech2002@gmail.com","collegeStudent",,,,,,
 "67eed716f502c8f7e4198c20",,"plus@gmail.com","plustwoStudent",,,,,72,"Science"
-"67eed771f502c8f7e4198c22",,"plus2@gmail.com","plustwoStudent",,,,,55,"Science"
-"67eed7c3f502c8f7e4198c24","John Doe","john@example.com","collegeStudent","B.Tech","Computer Science",85,21,,
+"67eed771f502c8f7e4198c22",,"plus2@gmail.com","plustwoStudent",,,,,80,"Computer Science"
+"67eed7c3f502c8f7e4198c24","John Doe","john","collegeStudent","B.Tech","Computer Science",85,21,,
+"67eed8930ba952b4ffa79e53",,"js@gmail.com","plustwoStudent",,,,,80,"Science"
+"67eed9530ba952b4ffa79e56","anto","anto@gmail.com","collegeStudent","Computer Science","B.Tech",70,22,,
+"67f14716a2ad0e9a2ea023a2","plus2Student","plus2Student@gmail.com","plustwoStudent",,,,,80,"Science"
+"67f153bba2ad0e9a2ea02425","amrita","amritha@gmail.com","plustwoStudent",,,,,80,"Science"
+"67f15529a2ad0e9a2ea02473","collegeStudent","college@gmail.com","collegeStudent","B.Tech","Computer Science",80,22,,
+"67f16b9da2ad0e9a2ea024fc","jobin","jobin@gmail.com","plustwoStudent",,,,,65,"Biology Science"
+"67f16f00a2ad0e9a2ea0255f","jacob","jacob@gmail.com","collegeStudent","B.Sc","computer science",70,12,,
