@@ -27,7 +27,7 @@ PORT=5000
 
 ## 📌 Overview  
 This is the **frontend** for the Job Portal application built with **React.js** and **Vite**. It located inside the_ /frontend_ folder of this repository
-It connects to a **Node.js + Express + MongoDB** backend and allows users to:
+It connects to a **Node.js + Express + MongoDB** backend and allows users to :
 
 - Register and log in
 - Browse job listings and colleges
